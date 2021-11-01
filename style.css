@@ -8,6 +8,7 @@ body {
 
 #entire-page {
     height: 100%;
+    background-image: url(https://static.grammarly.com/assets/files/513d15c7f12f8a27c1fea873458ebddb/bg.jpg);
 }
 
 #nav-container {
@@ -35,6 +36,19 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 2em;
 }
 
+.display-container, h1 {
+    font-size: 44px;
+    font-family: sans-serif;
+}
+
+.display-container, p {
+    font-size: 20px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
 
