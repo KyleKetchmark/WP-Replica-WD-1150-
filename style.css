@@ -4,51 +4,131 @@ html {
 
 body {
     background-color: #fff;
-}
-
-#entire-page {
-    height: 100%;
     background-image: url(https://static.grammarly.com/assets/files/513d15c7f12f8a27c1fea873458ebddb/bg.jpg);
 }
 
 #nav-container {
     position: relative;
+    width: 100%;
+    color:rgb(14, 16, 26);
+}
+
+br {
+    height: auto;
 }
 
 .nav-icons {
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 8px 16px;
 }
 
 .login-link {
-    display: flex;
     color: #fff;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.login-link, a:visited {
+    text-decoration: none;
+    color: #0e101a;
+}
+
+.block {
+    position: relative;
+    width: 68%;
+    padding: 36px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .info-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    padding: 2em;
+    align-items: flex-start;
+    margin: auto;
+
 }
 
-.display-container, h1 {
+.display-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.display-wrapper, h1 {
     font-size: 44px;
     font-family: sans-serif;
+    line-height: normal;
 }
 
-.display-container, p {
+.display-wrapper, p {
     font-size: 20px;
     font-family: Inter, sans-serif;
     font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
+    color: rgb(14, 16, 26);
+    font-weight: 300;
+    line-height: 35px;
 }
 
+#chrome-button {
+    background-color: #11a683;
+    color: white;
+    display: inline-block;
+    width: 224px;
+    height: 50px;
+    border: 3px;
+    border-radius: 5px;
+    padding: 10px;
+    align-content: center;
+}
+
+#chrome-button:hover {
+    opacity: 70%;
+}
+
+
+.review-wrapper {
+    display: flex;
+    justify-content: row;
+    padding-top: 10px;
+
+}
+
+.review-part {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    color: rgb(109, 117, 141);
+}
+
+.img-wrapper {
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+#gmail-img {
+    border: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 27px;
+    left: -53px;
+}
+
+#gram-img {
+    position: relative;
+    top: 0px;
+    left: 225px;
+    border: whitesmoke;
+}
+
+#sec {
+    width: 100px;
+    height: 100px;
+}

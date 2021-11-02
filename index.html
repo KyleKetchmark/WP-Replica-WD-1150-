@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,53 +8,95 @@
     <link rel="stylesheet" href="../Static Layout/style.css">
     <title>Grammarly: Because English is Hard</title>
 </head>
+
 <body>
-    <div id="entire-page">
+    <div>
         <!-- Top Nav panel-->
         <div id="nav-container">
             <nav class="nav-icons">
                 <a href="" target="_blank">
-                    <img src="https://static.grammarly.com/assets/files/19fc696d4cf13c26d65fceffd734afff/grammarly_logo.svg" alt="Grammarly Logo">
+                    <img src="https://static.grammarly.com/assets/files/19fc696d4cf13c26d65fceffd734afff/grammarly_logo.svg"
+                        alt="Grammarly Logo">
                 </a>
                 <ul class="login-link">
                     <li>
-                        <a href="" target="_blank">
-                            <font style="vertical-align: inherit;">Log in</font>
-                        </a>
+                        <a href="" target="_blank">Log in</a>
                     </li>
                 </ul>
             </nav>
         </div>
         <!-- Great Writing blocks -->
-        <section class="info-container">
+        <section class="block" <div id="info-container">
             <div class="display-wrapper">
                 <div>
-                    <h1>Great Writing,
-                    <br> 
-                    Simplified
+                    <h1>
+                        Great Writing,<br>
+                        Simplified
                     </h1>
                 </div>
                 <div>
                     <p>Compose bold, clear, mistake-free writing with Grammarly's AI-powered writing assistant.</p>
                 </div>
-                <div>
-                    <button>Add to Chrome</button>
+                <button id="chrome-button" type="button">
+                    <span><b>Add to Chrome</b></span>
+                    <a href="" target="_blank"></a>
+                    <div style="display: inline-block; width: 8px;"></div>
+                    <span>It's free</span>
+                </button>
+                <div class="review">
+                    <div class="review-wrapper">
+                        <div class="review-part">
+                            <img src="https://static.grammarly.com/assets/files/74707652ccea5b90d8c2a0029a1eea3e/stars.svg"
+                                alt="Chrome reviews">
+                        </div>
+                        <div style="width: 8px;"></div>
+                        <div class="review-part">
+                            40,000+ Chrome store reviews
+                        </div>
+                    </div>
+                    <div class="review-part">
+                        30 million people use Grammarly to improve their writing
+                    </div>
                 </div>
-                    <footer><img src="https://static.grammarly.com/assets/files/74707652ccea5b90d8c2a0029a1eea3e/stars.svg" alt="Chrome reviews"> 40,000+ Chrome store reviews</footer>
+            </div>
+            <div id="info-container" class="img-wrapper">
+                <div>
+                    <img src="./assets/grammarly-movie.png" alt="Grammarly display">
+                </div>
+            </div>
+    </div>
+    </section>
+    <!-- Write With your reader blocks -->
+    <section class="block">
+        <div class="info-container">
+            <div class="img-wrapper">
+                <img id="sec" src="./assets/Screen Shot 2021-11-02 at 2.24.04 AM.png" alt="Grammarly Application">
             </div>
             <div class="display-wrapper">
-                <img src="./assets/grammarly-movie.png" alt="Grammarly display">
-            </div>
-        </section>
-        <!-- Write With your reader blocks -->
-        <div id="info-container">
-            <div class="reader-wrapper">
-
-            </div>
-            <div class="reader-wrapper">
-
+                <div class="review-wrapper">
+                    <div class="review-part">
+                        <img src="https://static.grammarly.com/assets/files/9a1748b5f2c4ba38078549bf92b8b7bd/stars.svg"
+                            alt="Stars">
+                    </div>
+                    <div style="width: 8px;"></div>
+                    <div class="review-part">
+                        NEW & NOTEWORTHY
+                    </div>
+                </div>
+                <div>
+                    <h1>Write With Your Reader in Mind</h1>
+                </div>
+                <div>
+                    <p>Grammarly now organizes your writing feedback by theme, so you can see how each change will help
+                        your readers better understand your message.</p>
+                </div>
+                <div>
+                    <a href="" target="_blank">Show me more ></a>
+                </div>
             </div>
         </div>
+    </section>
     </div>
 </body>
+
 </html>
